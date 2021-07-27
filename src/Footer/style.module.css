@@ -1,0 +1,19 @@
+.title {
+  background-color: white;
+  color: grey;
+  padding-left: 170px;
+  font-size: 60px;
+  line-height: 75px;
+  text-transform: uppercase;
+  font-weight: 400;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+}
+
+.bold{
+  font-weight: 700;
+}

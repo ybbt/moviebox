@@ -1,0 +1,27 @@
+.regionNav {
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+}
+
+.navItem{
+    margin: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navItem:hover{
+    color: white;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.active,.active:hover{
+    color: white;
+}
+
+.active, .navItem:hover{
+    font-weight: bold;
+}

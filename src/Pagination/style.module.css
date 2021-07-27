@@ -1,0 +1,27 @@
+.pages {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 2340px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #FF0079;
+    /* padding: 25px; */
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid #FF0079;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+}
+
+.active {
+    background-color: #FF0079;
+    color: white;
+}
